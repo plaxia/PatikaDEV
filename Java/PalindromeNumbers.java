@@ -4,7 +4,7 @@ public class PalindromeNumbers {
     static boolean isPalindrome (int number){
         int reverse=0,n1=number,n2;
         while(n1!=0){
-//141
+
            n2=n1%10;
             reverse=(reverse*10)+n2;
             n1=n1/10;
