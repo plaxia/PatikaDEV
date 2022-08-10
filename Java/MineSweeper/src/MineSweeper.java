@@ -61,23 +61,7 @@ this.colm=colm;
             System.out.println(" ");
         }
     }
-   /* public void control(int a,int b)
-    {
-        int count = 1;
-      a =scn.nextInt();
-       b = scn.nextInt();
-        while(array[a][b]!="*")
-        {
-            System.out.println("Enter a row");
-            a =scn.nextInt();
-            System.out.println("Enter a column");
-            b = scn.nextInt();
-            if(array[a][b+1].equals("*)){
-                count++;
-                System.out.println(count);
-            }
-        }
-    }*/
+  
     public void run()
     {
         int count =0;
@@ -97,12 +81,7 @@ this.colm=colm;
 int a =scn.nextInt();
         System.out.print("Enter a column: ");
 int b = scn.nextInt();
-//if(a>row+1||b>colm+1||a<-2||b<-2)
-/*{
-    System.out.println("Hatali giris yaptiniz.");
 
-}*/
-//else{
   while(!array[a][b].equals("*"))
   {
 
