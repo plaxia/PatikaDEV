@@ -4,7 +4,7 @@ public class MaxMinNumber
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        int n1,max=0,min=0,count,tmp;
+        int n1,max=-2_147_483_647,min=2_147_483_647,count,tmp;
         System.out.print("Enter how many number will you enter :");
         count = input.nextInt();
         for (int i = 1; i <=count ; i++)
